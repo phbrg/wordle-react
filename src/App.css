@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.source {
+  position: fixed;
+  top: 90%;
+  color: rgb(126, 126, 126);
+  font-size: 0.9vw;
+}
+
+.source a {
+  color: rgb(0, 132, 255);
+  text-decoration: underline;
+}

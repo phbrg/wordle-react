@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main);
+  border-radius: 1000px;
+}
+  
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Poppins';
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  resize: none;
+  outline: none;
+  border: 0;
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text: #e4e4e4;
+  --bg: rgb(29, 30, 38);
+  --main: #0066ff;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+button {
+  cursor: pointer;
+  font-weight: 600;
+  color: #f3f3f3;
+  border-radius: 8px;
+  background-color: rgb(3, 87, 255);
+}
+
+button:active {
+  transform: scale(0.98);
+}

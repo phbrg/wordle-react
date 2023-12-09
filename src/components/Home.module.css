@@ -1,0 +1,21 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Home h1 {
+  font-size: 2vw;
+}
+
+.Home p {
+  font-size: 1vw;
+  color: gray;
+  padding: 2vh 0;
+}
+
+.Home button {
+  font-size: 1.2vw;
+  padding: 1.4vh 2.2vw;
+}

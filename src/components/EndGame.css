@@ -1,0 +1,26 @@
+.End {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.End * {
+  margin: 1vh 0;
+}
+
+.End h2 {
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+
+.End h2 span {
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: rgb(0, 132, 255);
+}
+
+.End button {
+  font-size: 1.2vw;
+  padding: 1.2vh 1.8vw;
+}
